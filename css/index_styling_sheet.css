@@ -1,0 +1,25 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(50,150,150);
+    
+    
+}
+h1{
+    text-align: center;
+}
+.listItem{
+    
+    display: inline-block;
+}
+
+nav{
+    text-align: center;
+}
+
+#mainPicCap{
+    font-size: 85%;
+}
+#introPara{
+    display: inline-block;
+    text-align: right;
+}
