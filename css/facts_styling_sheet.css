@@ -8,7 +8,7 @@ h1{
     text-align: center;
     color: white;
 }
-.listItem{
+.listItem{ 
     
     display: list-item;
     list-style-type: circle;
@@ -27,20 +27,11 @@ nav{
     
     
 }
-#mainSection{
-    display: block;
-}
 
 
-#mainPicCap{
-    font-size: 70%;
-    width:25cm;
 
-}
-figure{
-    display: block;
-    float: left;
-}
+
+
 #introPara{
     display: block;
     text-align: left;
@@ -55,5 +46,5 @@ p::first-line{
 }
 
 footer{
-    padding-top: 500px;
-}
+    padding-top: 100px;
+} 
