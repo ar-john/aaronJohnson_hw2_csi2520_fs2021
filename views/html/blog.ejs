@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+     <!--adding a favicon-->
+    <!-- add a new favicon -->
+    <link rel="shortcut icon" href="../img/yellow-lightning-bolt-png-8.jpg" type="image/jpg">
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/eaa876c589.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/blog_stylesheet.css">
+
+    <script src="../js/blog_js.js" defer></script>
+</head>
+<body>
+    <header id=#header>
+
+         <!--nav bar listing my 3 pages-->
+         <nav>
+            <ul>
+                <li class="listItem"><a href="../index.ejs"> Homepage</a></li>
+                <li class="listItem"><a href="../html/my_fun_facts.ejs"> Fun Facts </a></li>
+                <li class="listItem"><a href="../html/my_resume.ejs"> My Resume </a></li>
+                <li class="listItem"><a href="../html/blog.ejs"> Blog </a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+    
+        <h1>Blog Posts</h1>
+        <section id="blogSection">
+            <h2>Mithril protocol design</h2>
+            <article id="blogArticle">
+                
+                
+                Mithril is a protocol designed to:
+
+                leverage stake to obtain higher efficiency
+                ensure transparent setup while not requiring increased trust settings
+                leverage trade-offs between size and efficiency, which is guaranteed by the modular component design.
+                Mithril works in a public setting where signers don’t need to interact with other signers to produce a valid signature. The aggregator combines all the signatures into one, and this process is logarithmic with respect to the number of signatures, which results in a sublinear performance for Mithril aggregation. For example, when applied to full node clients like Daedalus, Mithril can boost full node data synchronization ensuring speed and decreasing resource consumption.
+
+                To represent a significant fraction of the total stake, Mithril uses the stake-based threshold setting. This behavior is different from the standard setting in which the given number of participants are required to validate a particular message. In the stake-based threshold setting, the protocol requires a fraction of the total stake to validate a given message to generate a correct signature.
+            
+                
+            </article>
+            <br>
+            <figcaption id="blogCaption">
+                --Excerpt taken from "Mithril: a stronger and lighter blockchain for better efficiency"
+                Written by Olga Hryniuk on iohk.io
+            </figcaption>
+            
+            <hr>
+            
+            <p id="blogPara">
+
+                The excerpt above is written in reference to the proof-of-stake coin, Cardano.
+                Cardano's scalability is dependent on the stakeholders in the network to maintain 
+                reliabilty and trust in Cardano. The stakeholders are involved in the scalability 
+                when the blocks need to be validated and protocol calls for signatures from the nodes.
+                As the network grows this hinders scalability and speed. The Mithril protocol improves 
+                multi-signature system and boosts scalability and speed.
+
+            </p>
+        </section>
+
+        <form id="commentForm">
+            <button id="commentBtn">Add/Leave A Comment</button>
+        </form>
+
+    </main>
+
+
+  
+
+    <footer>
+        <hr>
+        <section>
+        <!-- specify copyright info like email, sites. USE FONT AWESOME-->
+            <a href="https://www.linkedin.com/in/arjohnson1o1/" aria-label="Linked In" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+        
+            <!-- link to my email. will open the users email with me as the recipient-->
+            <a href="mailto:arjohnson@oakland.edu" aria-label="My Email"><i class="fas fa-envelope-square fa-3x"></i>
+        </section>
+
+
+    </footer>
+
+    
+    
+</body>
+</html>
