@@ -17,11 +17,11 @@ app.get("/", (req,res) => {
     res.render("index");
 });
 
-app.get("/my_resume", (req,res) => {
-    res.render("/html/my_resume");
+app.get("/my_resume.ejs", (req,res) => {
+    res.render("/html/my_resume.ejs");
 });
 
-app.get("/my_fun_facts", (req,res) => {
+app.get("/my_fun_facts.ejs", (req,res) => {
     res.render("/html/my_fun_facts.ejs");
 });
 
